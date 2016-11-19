@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					3EA443A91C15C3E60059A489 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -253,6 +254,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.UIStackViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.UIStackViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +289,7 @@
 				3EA443BE1C15C3E60059A489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

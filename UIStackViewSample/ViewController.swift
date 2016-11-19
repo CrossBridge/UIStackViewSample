@@ -11,11 +11,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var targetView: UIView!
     
-    @IBAction func changeValue(sender: UISwitch) {
-        if sender.on {
-            targetView.hidden = false
+    @IBAction func changeValue(_ sender: UISwitch) {
+        if sender.isOn {
+            targetView.isHidden = false
         } else {
-            targetView.hidden = true
+            targetView.isHidden = true
         }
     }
     
